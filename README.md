@@ -4,7 +4,7 @@ Una aplicación hecha en Node y en Express usando un motor de plantillas para la
 
 ## 📷 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://res.cloudinary.com/dg84upfsp/image/upload/v1665245797/book/Screenshot_1_sd8pmx.jpg))
+![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://res.cloudinary.com/dg84upfsp/image/upload/v1665245797/book/Screenshot_1_sd8pmx.jpg))
 
 
 ## 📝 Features
