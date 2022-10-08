@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Forma correcta de incluir una parte del codigo -->
+    <%- include('partials/header') %>
+    <title>Books</title>
+  </head>
+  <body>
+    <div class="container p-4">
+      <%- include('partials/navigation') %>
+      <div class="row">
+        <% books.forEach(function (book) { %>
+        <div class="col-md-4">
+          <div class="card mt-4">
+            <div class="card-header"><%=book.title %></div>
+            <div class="card-body">
+              <img class="card-img-top" src="<%book.image %>" alt="..." />
+              <!-- <p><%=book.contents %></p> -->
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-danger" href="/delete/<%=book.id%>">Delete</a>
+            </div>
+          </div>
+        </div>
+        <% } ) %>
+      </div>
+    </div>
+  </body>
+</html>
